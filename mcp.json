@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "linear-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://mcp.linear.app/sse",
+        "--header",
+        "Authorization: Bearer ${LINEAR_ACCESS_TOKEN}"
+      ]
+    }
+  }
+}
